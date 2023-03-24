@@ -1,24 +1,50 @@
-import logo from './logo.svg';
-import './App.css';
+import { IonApp, IonRouterOutlet } from "@ionic/react";
+import "./App.css";
+import { IonReactRouter } from "@ionic/react-router";
+import { Route } from "react-router";
+import Home from "./Components/Home";
+import PostForm from "./Components/PostForm";
+import { useState } from "react";
 
-function App() {
+function App({ match }) {
+
+  //fetch data from json server
+
+  // const updatePostHandler = (updatedPost) => {
+  //   let filteredArray = postList.map((item) => {
+  //     if (item.id == updatedPost.id) {
+  //       return {
+  //         ...updatedPost,
+  //       };
+  //     } else {
+  //       return {
+  //         ...item,
+  //       };
+  //     }
+
+  //   });
+
+  //   // setPostList(filteredArray);
+
+  // };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <IonApp>
+      <IonReactRouter>
+        <IonRouterOutlet>
+          <Route
+            path="/"
+            component={Home}
+            exact
+          />
+          <Route
+            path="/post"
+            
+            component={PostForm}
+          />
+        </IonRouterOutlet>
+      </IonReactRouter>
+    </IonApp>
   );
 }
 

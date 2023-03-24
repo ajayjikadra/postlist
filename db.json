@@ -1,0 +1,39 @@
+{
+  "posts": [
+    {
+      "id": 2,
+      "titile": "sports",
+      "name": "--Ajay bhai",
+      "description": "Sport is amazing game i loved to paly sports game and i am very happy and excted to play a game hshshshkhkhhjkh jhfghfghfg gghghg gjhg",
+      "url": "https://nationaltoday.com/wp-content/uploads/2022/06/Frame-25-min-1.jpg"
+    },
+    {
+      "id": 3,
+      "titile": "Hardware",
+      "name": "--Ajay bro",
+      "description": "All hardware devices, whether internal or external, include chips on a circuit board to perform a function. All hardware also requires a way to interface with the rest of the computer, usually by connecting to a port, socket, or wireless radio. After that, pieces of hardware will include other parts that help them fulfill their function, like buttons, sensors, protective cases, or even cooling fans to prevent overheating.",
+      "url": "https://www.lifewire.com/thmb/DV5fa9Mu8gGvXPijAzJhiqPynPs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/computer-hardware-2625895-5d9007ac0d44404588321d255fc82049.jpg"
+    },
+    {
+      "id": 4,
+      "titile": "Software",
+      "name": "ajay ajikadra",
+      "description": "In computer science, data (treated as singular, plural, or as a mass noun) is any sequence of one or more symbols; datum is a single symbol of data. Data requires interpretation to become information. Digital data is data that is represented using the binary number system of ones (1) and zeros (0), instead of analog representation. In modern (post-1960) computer systems, all data is digital.",
+      "url": "https://i.pcmag.com/imagery/roundups/02HDufdqeRUDu3tl0NnY2qZ-2..v1649351854.jpg"
+    },
+    {
+      "id": 1679653211301,
+      "titile": "ajay jikadra",
+      "name": "Sasha Bolton",
+      "url": "Ratione sunt culpa ",
+      "description": "Saepe explicabo Quo"
+    },
+    {
+      "id": 1679661865761,
+      "titile": "Iusto labore anim co",
+      "name": "Ebony Dotson",
+      "url": "Quam ut ipsum ullam",
+      "description": "Consequuntur in volu"
+    }
+  ]
+}
